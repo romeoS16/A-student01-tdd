@@ -1,6 +1,7 @@
 package de.ba.experiment.palindrome;
 
 public class PalindromeChecker {
+
     /**
      * Prüft, ob ein gegebener String ein Palindrom ist.
      *

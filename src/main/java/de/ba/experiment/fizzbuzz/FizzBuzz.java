@@ -1,6 +1,7 @@
 package de.ba.experiment.fizzbuzz;
 
 public class FizzBuzz {
+
     /**
      * Gibt für die Zahlen von 1 bis n jeweils einen String zurück.
      *
