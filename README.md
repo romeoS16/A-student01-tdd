@@ -74,9 +74,9 @@ Die Methode soll true zurückgeben, wenn text ein Palindrom ist, sonst false.
 
 Für diese Aufgabe gilt:
 - Ein Palindrom liest sich vorwärts und rückwärts gleich.
-- Groß-/Kleinschreibung wird ignoriert (z.B. "Anna" → Palindrom).
-- Leerzeichen werden ignoriert (z.B. "Lager Regal" → Palindrom).
-- Alle anderen Zeichen werden normal berücksichtigt.
+- Groß-/Kleinschreibung wird ignoriert.
+- Leerzeichen werden ignoriert.
+- Alle anderen Zeichen (Buchstaben, Ziffern, Satzzeichen) werden normal berücksichtigt.
 - Ein leerer String ("") gilt als Palindrom.
 - null gilt nicht als Palindrom (false).
 
@@ -117,7 +117,7 @@ Für jede erfüllte Eigenschaft gibt es 1 Punkt.
 - Punkte >= 4  -> "STRONG"
 
 (5) Beispiele
-- null -> "WEAK"
+- ab1 -> "WEAK"
 - Abc123 -> "MEDIUM"
 - aaaAAAbbb!223j -> "STRONG"
 

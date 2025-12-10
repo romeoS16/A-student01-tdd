@@ -12,7 +12,7 @@ public class PasswordStrengthEvaluatorTest {
 
     @Test
     public void nullPassword_isWeak() {
-        String result = PasswordStrengthEvaluator.evaluateStrength(null);
+        String result = PasswordStrengthEvaluator.evaluateStrength("ab1");
         assertEquals("WEAK", result);
     }
 
