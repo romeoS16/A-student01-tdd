@@ -131,4 +131,4 @@ Schreiben Sie Tests in der [PasswordStrengthEvaluatorTest](src/test/java/de/ba/e
 - Verwende keine KI-Tools (z. B. ChatGPT, Copilot) zur Bearbeitung dieser Aufgaben.
 - Halte dich an die vorgegebenen Methodensignaturen.
 - Schreibe konsequent Tests zuerst und lass dich von ihnen durch die Implementierung führen.
-- Committe und pushe regelmäßig, damit der Fortschritt nachvollziehbar ist.
+- Committe und pushe regelmäßig.
