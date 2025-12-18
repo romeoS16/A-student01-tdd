@@ -1,5 +1,7 @@
 package de.ba.experiment.palindrome;
 
+import java.util.Locale;
+
 public class PalindromeChecker {
 
     /**
@@ -14,7 +16,23 @@ public class PalindromeChecker {
      */
 
     public static boolean isPalindrome(String text) {
-        // TODO: implementieren
+
+        if(text == null) {
+            return false;
+        }
+
+        text = text.toLowerCase().replaceAll("\\s+","");
+
+
+        if (text.length() == 0 || text.length() == 1) {
+            return true;
+        }
+
+        else if (text.charAt(text.length()-1) == text.charAt(0)) {
+            return isPalindrome(text.substring(1, text.length()-1));
+        }
+
         return false;
+
     }
 }
